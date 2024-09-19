@@ -2804,7 +2804,6 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
             InlineKeyboardButton("ʏᴇᴀʀs", callback_data=f"years#{key}")
         ])
     if offset != "":
-    if offset != "":
         req = message.from_user.id if message.from_user else 0
         try:
             if settings['max_btn']:
